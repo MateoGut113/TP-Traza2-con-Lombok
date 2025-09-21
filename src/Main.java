@@ -61,7 +61,7 @@ public class Main {
                 .unidadMedida(gramo)
                 .build();
 
-            // Guardar Articulos insumos en su repositorio
+            //Guardar Articulos insumos en su repositorio
         articuloInsumoRepository.save(aceite);
         articuloInsumoRepository.save(sal);
         articuloInsumoRepository.save(carne);
